@@ -1,0 +1,89 @@
+[
+    {
+        "name": "id",
+        "dbType": "increments",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "nitonuip",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": "required",
+        "searchable": true
+    },
+    {
+        "name": "nombre",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": "required",
+        "searchable": true
+    },
+    {
+        "name": "nombre_contacto",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": "required",
+        "searchable": true
+    },
+     {
+        "name": "telefono_contacto",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": "required",
+        "searchable": true
+    },
+      {
+        "name": "email_contacto",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": "required",
+        "searchable": true
+    },
+      {
+        "name": "estado",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": "required",
+        "searchable": true
+    },
+      {
+        "name": "direccion",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": "email",
+        "searchable": true
+    },
+    
+
+   
+    {
+        "name": "created_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "updated_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    }
+
+
+]
